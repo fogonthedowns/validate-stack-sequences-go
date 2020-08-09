@@ -1,0 +1,13 @@
+Validate Stack Sequences
+
+Given two sequences pushed and popped with distinct values, return true if and only if this could have been the result of a sequence of push and pop operations on an initially empty stack.
+
+Solution:
+
+1. Use stack data structure
+2. Push each value into the stack
+3. Greedily pop values from the stack if they are the next value of the pop slice
+4. Verify we have popped all the values out
+
+
+Greedy Algorithm O(N) Space and time complexity
